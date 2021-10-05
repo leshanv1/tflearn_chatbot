@@ -1,0 +1,12 @@
+
+{
+	"intents": 
+	[
+		{
+			"tag": "greeting",
+			"patterns": ["Hi","How are you","whats good","Is anyone there", "Hello", "Good day", "Whats up"]
+			"responses":["Hello!","Hello User!","Good to see you","Hi there, how can I help?"]
+			"context_set":""
+		},
+	]
+}
