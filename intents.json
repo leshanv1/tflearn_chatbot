@@ -6,7 +6,19 @@
 			"tag": "greeting",
 			"patterns": ["Hi","How are you","whats good","Is anyone there", "Hello", "Good day", "Whats up"]
 			"responses":["Hello!","Hello User!","Good to see you","Hi there, how can I help?"]
-			"context_set":""
+			"context_set":[""]
 		},
+		{
+			"tag": "goodbye",
+     			"patterns": ["Bye", "See you later", "Goodbye", "Nice chatting to you, bye", "Till next time"],
+         		"responses": ["See you!", "Have a nice day", "Bye! Come back again soon."],
+         		"context": [""]
+        	},
+		{
+			"tag": "thanks",
+         		"patterns": ["Thanks", "Thank you", "That's helpful", "Awesome, thanks", "Thanks for helping me"],
+         		"responses": ["Happy to help!", "Any time!", "My pleasure"],
+         		"context": [""]
+        	},
 	]
 }
